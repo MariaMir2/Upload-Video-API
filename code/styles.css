@@ -1,0 +1,36 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+  
+.hidden {
+    display: none;
+}
+  
+#play,
+#pause,
+#masV,
+#menosV{
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+  
+#mensaje {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
